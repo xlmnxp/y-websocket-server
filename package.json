@@ -25,6 +25,10 @@
   ],
   "exports": {
     "./package.json": "./package.json",
+    "./server": {
+      "types": "./dist/src/server.d.ts",
+      "default": "./src/server.js"
+    },
     "./utils": {
       "import": "./src/utils.js",
       "require": "./dist/utils.cjs",
@@ -68,9 +72,6 @@
     "standard": "^17.1.2",
     "typescript": "^5.8.3",
     "ws": "^6.2.1",
-    "yjs": "^14.0.0-7"
-  },
-  "peerDependencies": {
     "yjs": "^14.0.0-7"
   },
   "engines": {
