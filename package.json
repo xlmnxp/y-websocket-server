@@ -1,6 +1,6 @@
 {
   "name": "@y/websocket-server",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Backend for y-websocket",
   "type": "module",
   "sideEffects": false,
